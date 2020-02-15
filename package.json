@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Collection of mall-app.",
   "author": "xiaohuaihuai <1134903504@qq.com>",
-  "license": "Apache License 2.0",
+  "license": "https://github.com/xiaohuaihuai/mall-app/blob/master/LICENSE",
   "scripts": {
     "serve": "vue-cli-service serve --port 9001",
     "build": "vue-cli-service build",
