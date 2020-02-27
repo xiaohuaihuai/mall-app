@@ -38,10 +38,10 @@ npm run serve
 ```bash
 # 本地打包
 npm run buildDev
-```
 
 # 进入dist目录
 cd dist
+```
 
 1.  使用浏览器打开index.html
 2.  浏览器F12设置手机模式
