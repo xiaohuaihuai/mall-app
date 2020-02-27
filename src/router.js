@@ -92,7 +92,10 @@ const routes = [
   }
 ];
 
-const router = new Router({ routes });
+const router = new Router({
+  mode: 'hash',
+  routes: routes
+});
 
 router.beforeEach((to, from, next) => {
   const title = to.meta && to.meta.title;
