@@ -21,10 +21,30 @@ cd mall-app
 
 # 安装依赖
 npm install
+```
 
+#### 本地调试
+
+```bash
 # 启动服务
 npm run serve
 ```
+
+1.  浏览器访问 http://localhost:9001
+2.  浏览器F12设置手机模式
+
+#### 本地打包并预览
+
+```bash
+# 本地打包
+npm run buildDev
+```
+
+# 进入dist目录
+cd dist
+
+1.  使用浏览器打开index.html
+2.  浏览器F12设置手机模式
 
 #### 发布
 
@@ -33,17 +53,12 @@ npm run serve
 npm run build
 ```
 
-#### 其它
+#### eslint
 
 ```bash
 # 代码格式检查
 npm run lint
 ```
-
-#### 使用说明
-
-1.  浏览器访问 http://localhost:9001
-2.  浏览器F12设置手机模式
 
 #### 参与贡献
 
