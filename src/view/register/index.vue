@@ -36,7 +36,7 @@
 
 <script>
     import { CellGroup, Field, Button, Dialog, Toast } from 'vant';
-    import {register} from '../../api/user';
+    import {register} from '@/api/user';
     // import axios from 'axios';
 
     export default {

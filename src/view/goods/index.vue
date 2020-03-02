@@ -75,7 +75,7 @@ import {
   GoodsActionIcon,
   GoodsActionButton
 } from 'vant';
-import {queryGoodsById} from '../../api/goods';
+import {queryGoodsById} from '@/api/goods';
 // import axios from 'axios';
 
 export default {

@@ -13,7 +13,7 @@ const goodsList = [
             '   存储：2GB+16GB\n' +
             '   HDMI：3个',
         price: 2999,
-        thumb: require('../assets/images/xiaomi1.png')
+        thumb: require('@/assets/images/xiaomi1.png')
     },
     {
         id: '2',
@@ -28,7 +28,7 @@ const goodsList = [
             '  存储：2GB+8GB\n' +
             '  HDMI：3个',
         price: 2799,
-        thumb: require('../assets/images/xiaomi2.png')
+        thumb: require('@/assets/images/xiaomi2.png')
     },
     {
         id: '3',
@@ -50,7 +50,7 @@ const goodsList = [
             '   网络模式：双卡双待\n' +
             '   普通厚度：9.67mm',
         price: 2799,
-        thumb: require('../assets/images/xiaomi3.png')
+        thumb: require('@/assets/images/xiaomi3.png')
     },
     {
         id: '4',
@@ -73,7 +73,7 @@ const goodsList = [
             '   网络模式：双卡双待\n' +
             '   普通厚度：8.67mm',
         price: 1999,
-        thumb: require('../assets/images/xiaomi4.png')
+        thumb: require('@/assets/images/xiaomi4.png')
     },
     {
         id: '5',
@@ -92,7 +92,7 @@ const goodsList = [
             '   重量：1.0~1.5kg\n' +
             '   厚度：便携轻薄',
         price: 3099,
-        thumb: require('../assets/images/xiaomi5.png')
+        thumb: require('@/assets/images/xiaomi5.png')
     },
     {
         id: '6',
@@ -107,7 +107,7 @@ const goodsList = [
             '   排水方式：上排水\n' +
             '   电机类型：BLDC变频',
         price: 2099,
-        thumb: require('../assets/images/xiaomi6.png')
+        thumb: require('@/assets/images/xiaomi6.png')
     },
     {
         id: '7',
@@ -118,7 +118,7 @@ const goodsList = [
             '   远程操控 / 高精度传感器 / 软件虚拟墙，房间自动分区 /指哪儿扫哪儿 / \n' +
             '   2100Pa',
         price: 1899,
-        thumb: require('../assets/images/xiaomi7.png')
+        thumb: require('@/assets/images/xiaomi7.png')
     },
     {
         id: '8',
@@ -127,7 +127,7 @@ const goodsList = [
         title: '九号平衡车Plus',
         desc: '增强型镁合金底盘 / 35km 超长续航 / 一键自动跟随',
         price: 3199,
-        thumb: require('../assets/images/xiaomi8.png')
+        thumb: require('@/assets/images/xiaomi8.png')
     }
 ];
 

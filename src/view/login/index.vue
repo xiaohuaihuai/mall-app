@@ -2,7 +2,7 @@
     <div>
         <div class="store_header">
             <div class="store_avatar">
-                <img src="../../assets/images/avatar_default.png" alt="头像" width="55" height="55">
+                <img :src="avatar_default" alt="头像" width="55" height="55">
             </div>
             <div class="store_name">肥肥の店</div>
         </div>
@@ -46,7 +46,7 @@
 
 <script>
     import { CellGroup, Field, Button, Dialog } from 'vant';
-    import {login} from '../../api/user';
+    import {login} from '@/api/user';
     // import axios from 'axios';
 
     export default {
@@ -59,9 +59,10 @@
 
         data() {
             return {
+                avatar_default: require('@/assets/images/avatar_default.png'),
                 loginReq: {
-                    username: '',
-                    password: ''
+                    username: '15261471747',
+                    password: '123456'
                 },
                 showPassword: false,
                 showKefu: false

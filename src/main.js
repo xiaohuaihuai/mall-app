@@ -1,7 +1,7 @@
 import Vue from 'vue';
-import App from './App';
-import { router } from './router';
-import { config } from './config';
+import App from '@/App';
+import { router } from '@/router';
+import { config } from '@/config';
 
 Vue.prototype.$config = config
 // eslint-disable-next-line no-console

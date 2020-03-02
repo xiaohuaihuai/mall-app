@@ -3,14 +3,14 @@ import Router from 'vue-router';
 
 Vue.use(Router);
 
-const Tabbar = () => import('./components/Tabbar');
-const register = () => import('./view/register');
-const login = () => import('./view/login');
-const home = () => import('./view/home');
-const user = () => import('./view/user');
-const userSetting = () => import('./view/user/setting');
-const cart = () => import('./view/cart');
-const goods = () => import('./view/goods');
+const Tabbar = () => import('@/components/Tabbar');
+const register = () => import('@/view/register');
+const login = () => import('@/view/login');
+const home = () => import('@/view/home');
+const user = () => import('@/view/user');
+const userSetting = () => import('@/view/user/setting');
+const cart = () => import('@/view/cart');
+const goods = () => import('@/view/goods');
 
 const routes = [
   {

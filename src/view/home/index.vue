@@ -25,7 +25,7 @@
 
 <script>
     import {List, Card} from 'vant';
-    import {queryGoodsList} from '../../api/goods';
+    import {queryGoodsList} from '@/api/goods';
     // import axios from 'axios';
 
     export default {
